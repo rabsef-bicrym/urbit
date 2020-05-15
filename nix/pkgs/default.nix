@@ -16,6 +16,7 @@ let
 
   libaes_siv = import ./libaes_siv {
     inherit pkgs;
+    inherit (deps) openssl;
   };
 
   mkUrbit = { debug }:

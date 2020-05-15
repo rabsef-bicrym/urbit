@@ -4,7 +4,8 @@
   ent,
   name ? "urbit",
   debug ? false,
-  ge-additions
+  ge-additions,
+  libaes_siv
 }:
 
 let
